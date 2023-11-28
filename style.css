@@ -1,0 +1,25 @@
+div{
+    width: 100px ;
+    height: 100px; 
+    background-color: rgb(0,0,0,0.8);
+    border-radius: 50%;
+    position: relative;
+    animation: mymove 1s infinite;
+}
+div:hover{
+    animation-play-state: paused ;
+}
+@keyframes mymove{
+    from{
+       left: 0px;
+    }
+    to{
+        left: 1000px;
+    }
+  from{
+    background-color: rgb(0,0,0,0.8);
+  }
+  to{
+    background-color: yellow;
+  }
+}
